@@ -1,0 +1,79 @@
+package Phase1eLearningAssiignment1;
+
+
+//Private
+//The private access modifier is accessible only within the class.
+class A{  
+	int data=40;  
+	void msg(){System.out.println("Hello java");}  
+	}
+
+public class Private {  
+			 public static void main(String[] args)
+			 {  
+			   A obj=new A();  
+			   System.out.println(obj.data);//Compile Time Error  
+			   obj.msg();//Compile Time Error  
+			   }  
+			}  
+		
+
+
+package Phase1eLearningAssiignment1;
+
+
+//Protected
+//The protected access modifier is accessible within 
+//package and outside the package
+
+public class Protected {
+	
+	protected void msg(){System.out.println("Hello");}  
+
+}
+class B extends A{  
+	  public static void main(String args[]){  
+	   B obj = new B();  
+	   obj.msg();  
+	  }  
+}
+
+
+
+package Phase1eLearningAssiignment1;
+
+
+//Protected
+//The protected access modifier is accessible within 
+//package and outside the package
+
+public class Protected {
+	
+	protected void msg(){System.out.println("Hello");}  
+
+}
+class B extends A{  
+	  public static void main(String args[]){  
+	   B obj = new B();  
+	   obj.msg();  
+	  }  
+}
+
+
+package Phase1eLearningAssiignment1;
+
+
+//Public
+//The public access modifier is accessible everywhere. It has the widest scope among all other modifiers.
+public class Public {
+
+	public void msg(){System.out.println("Hello");
+	
+	}
+}
+class D{  
+	  public static void main(String args[]){  
+	   A obj = new A();  
+	   obj.msg();  
+	  }  
+	}  
