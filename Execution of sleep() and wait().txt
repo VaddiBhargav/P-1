@@ -1,0 +1,34 @@
+Assisted Practice: 3.2 Demonstrate the Execution of sleep() and wait()
+This section will guide you to: 
+●	Write a program in Java to demonstrate sleep() and wait()
+●	Use Eclipse (the popular text editor for Java programs) 
+●	Push code to Git
+
+
+
+Step 3.2.2: Writing the program in Java to demonstrate sleep() and wait()
+public class MyClass 
+{
+    private static Object LOCK = new Object();
+    public static void main(String args[]) throws InterruptedException
+    {
+        Thread.sleep(1000);
+        System.out.println("Thread '" + Thread.currentThread().getName() + "' is woken after sleeping for 1 second");
+        synchronized (LOCK) 
+        {
+            LOCK.wait(1000);
+            System.out.println("Object '" + LOCK + "' is woken after" + " waiting for 1 second");
+        }
+    }
+}
+
+Output:
+ 
+Thread 'main' is woken after sleeping for 1 second
+Object 'java.lang.Object@3caeaf62' is woken after waiting for 1 second
+
+
+
+
+
+
