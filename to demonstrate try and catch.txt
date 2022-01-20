@@ -1,0 +1,39 @@
+Assisted Practice: 3.4 try-catch Statements
+This section will guide you to: 
+●	Write a program in Java to demonstrate try and catch
+●	Use Eclipse (the popular text editor for Java programs) 
+●	Push code to Git
+
+
+
+Step 3.4.2: Writing a program in Java to demonstrate try and catch
+
+public class MyClass 
+{
+    public static void main(String args[]) 
+    {
+        int[] array = new int[3];
+        try 
+        {
+            array[7] = 3;
+        }
+        catch (ArrayIndexOutOfBoundsException e) 
+        {
+            System.out.println("Array index is out of bounds!"); 
+        }
+        finally 
+        {
+            System.out.println("The array is of size " + array.length);
+        }
+    }
+}
+
+
+****************Output******************
+
+Array index is out of bounds!
+The array is of size 3
+ 
+
+
+
