@@ -1,0 +1,49 @@
+Content:
+1.Sprint Planning
+2.Uses of Application
+3.Techmologies 
+
+Sprint planning:
+1. First I display the Welcome page and developer name and display  all files in my directory.
+2.I have created a user interface to interact with the program.
+3.And I add files to the directory.
+4.Search files for files in my directory.
+5.Delete existing files in the directory.
+
+ Uses of Application:
+MAIN MENU-Select any of the following:
+1 ->List files in directory
+2 ->Add, Delete or Search 
+3 ->Exit Program 
+The user details are show in the interface , Then the user has to select options from the list.
+
+Technologies:
+1.Java 1.8
+2.Eclipse IDE
+
+Algorithms that are used in the application:
+Start:-
+1.I had used the constructor to initialize the instance variables.
+2.And I had imported the java.io.File package to store the files.
+3.I make the welcome prompt as static and final because that page cannot be changed so I had used that.
+4.In this application I had used the Exception handlers to handle the errors, those are try and catch blocks and final block for to give the message if the  user enter out of the option.
+5.And I imported the Scanner class because the user have to enter the input.
+6.Mainly switch statements are the main part of the program for selecting the option or to choose the option.
+7.In the arrays I had used the sorting method to sort the list in ascending order.
+8.Here I had used the For each loop for to store the values in string array.
+9.Finally I had called the method in the main method.
+10.End.
+
+Concepts Used in the Project are:-
+1.Exception handling.
+2.Scanner Class.
+3.created a file path.
+4.Strings.
+5.Arrays.
+6.Switch.
+7.For Loop.
+8.If conditions.
+9.Constructor.
+
+
+https://github.com/VaddiBhargav/P-1.git
